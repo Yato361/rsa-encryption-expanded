@@ -5,7 +5,7 @@ public class Main implements Constants {
 
         //PROGRAMM START
         long ctWhole = System.currentTimeMillis();
-        System.out.println("[Krypto] Project started. Key length will be " + keyGen.getKeyLength()  + " bits");
+        System.out.println("[Crypto] Project started. Key length will be " + keyGen.getKeyLength()  + " bits");
 
         long ct = System.currentTimeMillis();
         //generating keypair
