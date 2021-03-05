@@ -1,4 +1,5 @@
+package main.java.de.yato361.main;
+
 public interface Constants {
-    int KEY_LENGTH = 2048;
     int BYTE_LENGTH = 1000000;
 }

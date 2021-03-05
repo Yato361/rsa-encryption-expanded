@@ -1,4 +1,7 @@
-package asset;
+package main.java.de.yato361.encryption;
+
+import main.java.de.yato361.util.ArrayUtils;
+import main.java.de.yato361.util.ChunkSplicer;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

@@ -1,9 +1,11 @@
+package main.java.de.yato361.encryption;
+
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 
 
-public class KeyGen implements Constants{
+public class KeyGen implements Constants {
     private KeyPair keyPair;
 
     public KeyGen(){}

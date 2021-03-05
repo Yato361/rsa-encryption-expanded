@@ -1,4 +1,4 @@
-package asset;
+package main.java.de.yato361.util;
 
 import static java.lang.Math.abs;
 

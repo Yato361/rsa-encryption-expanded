@@ -1,6 +1,6 @@
-import asset.ChunkSplicer;
-import asset.BufDecrypt;
-import asset.BufEncrypt;
+package main.java.de.yato361.encryption;
+
+import main.java.de.yato361.util.ChunkSplicer;
 
 import javax.crypto.Cipher;
 import java.security.KeyPair;
@@ -8,12 +8,12 @@ import java.security.PublicKey;
 
 
 
-public class Security {
+public class EncryptionManager {
     private int maxNonDecryptedLength;
     private int maxCryptedLength;
 
     private KeyPair keyPair;
-    public Security(KeyPair keyPair, int keyLength){
+    public EncryptionManager(KeyPair keyPair, int keyLength){
         this.keyPair = keyPair;
         this.maxNonDecryptedLength = (keyLength/8)-11;
         this.maxCryptedLength = (keyLength/8);

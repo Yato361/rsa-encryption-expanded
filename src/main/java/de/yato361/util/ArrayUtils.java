@@ -1,4 +1,4 @@
-package asset;
+package main.java.de.yato361.util;
 
 public class ArrayUtils {
     public static byte[] arrayFromMatrixArray(byte[][] bytesArray, int byteLength){
