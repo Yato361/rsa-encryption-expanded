@@ -11,8 +11,8 @@ import java.security.PublicKey;
 public class EncryptionManager {
     private int maxNonDecryptedLength;
     private int maxCryptedLength;
-
     private KeyPair keyPair;
+
     public EncryptionManager(KeyPair keyPair, int keyLength){
         this.keyPair = keyPair;
         this.maxNonDecryptedLength = (keyLength/8)-11;
